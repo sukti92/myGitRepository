@@ -35,7 +35,6 @@ print(human1.__class__.country)
 print(human.country)
 print(Human.country)
 '''
-
 student1 = Student('xx', 23, 3.5, '124')
 print(student1)
 
