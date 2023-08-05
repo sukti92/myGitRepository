@@ -17,8 +17,6 @@ class Student(Human):
         self.cgpa = cgpa
         self.studentid = studentid
 
-        #Human.__init__(self, name, age)
-
     def display(self):
         super().display()
         print(f"ID:{self.studentid} CGPA:{self.cgpa}")
